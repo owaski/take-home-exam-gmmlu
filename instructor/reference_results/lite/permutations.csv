@@ -1,0 +1,5 @@
+lang,acc_ABCD,acc_BCDA,acc_CDAB,acc_DABC,mean,std,consistency_rate,frac_pred_A,frac_pred_B,frac_pred_C,frac_pred_D
+en,0.44,,,,0.44,0.0,,0.235,0.405,0.215,0.145
+zh,0.465,,,,0.465,0.0,,0.25,0.31,0.225,0.215
+hi,0.28,,,,0.28,0.0,,0.235,0.53,0.165,0.07
+sw,0.265,,,,0.265,0.0,,0.36,0.45,0.17,0.02

@@ -1,0 +1,27 @@
+{
+ "sample_id": "astronomy/test/107",
+ "prompt_sha256": "394bb0822a1766d7c14c84c66cea49ffdb7085e4e8d86e067f13a7972d39b267",
+ "n_prompt_tokens": 95,
+ "letter_ids": [
+  362,
+  425,
+  356,
+  422
+ ],
+ "top1_token_id": 356,
+ "model_sha": "7ae557604adf67be50417f59c2c2f167def9a775",
+ "letter_logprobs": {
+  "fp32": [
+   -1.658404,
+   -1.26446,
+   -0.765351,
+   -2.781453
+  ],
+  "fp16": [
+   -1.663515,
+   -1.27289,
+   -0.757265,
+   -2.788515
+  ]
+ }
+}

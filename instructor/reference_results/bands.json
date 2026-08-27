@@ -1,0 +1,404 @@
+{
+ "qwen2.5|en|CONT|v1_en": {
+  "acc": 0.3025,
+  "lo": 0.258,
+  "hi": 0.347,
+  "n": 400
+ },
+ "qwen2.5|zh|CONT|v1_en": {
+  "acc": 0.285,
+  "lo": 0.24,
+  "hi": 0.33,
+  "n": 400
+ },
+ "qwen2.5|sw|CONT|v1_en": {
+  "acc": 0.245,
+  "lo": 0.2,
+  "hi": 0.29,
+  "n": 400
+ },
+ "qwen2.5|en|CONT_CHARNORM|v1_en": {
+  "acc": 0.3275,
+  "lo": 0.283,
+  "hi": 0.372,
+  "n": 400
+ },
+ "qwen2.5|zh|CONT_CHARNORM|v1_en": {
+  "acc": 0.31,
+  "lo": 0.265,
+  "hi": 0.355,
+  "n": 400
+ },
+ "qwen2.5|sw|CONT_CHARNORM|v1_en": {
+  "acc": 0.2925,
+  "lo": 0.247,
+  "hi": 0.337,
+  "n": 400
+ },
+ "qwen2.5|en|CONT_TOKNORM|v1_en": {
+  "acc": 0.3475,
+  "lo": 0.302,
+  "hi": 0.392,
+  "n": 400
+ },
+ "qwen2.5|zh|CONT_TOKNORM|v1_en": {
+  "acc": 0.315,
+  "lo": 0.27,
+  "hi": 0.36,
+  "n": 400
+ },
+ "qwen2.5|sw|CONT_TOKNORM|v1_en": {
+  "acc": 0.3,
+  "lo": 0.255,
+  "hi": 0.345,
+  "n": 400
+ },
+ "qwen2.5|en|GEN|v1_en": {
+  "acc": 0.41,
+  "lo": 0.365,
+  "hi": 0.455,
+  "n": 400
+ },
+ "qwen2.5|zh|GEN|v1_en": {
+  "acc": 0.3625,
+  "lo": 0.318,
+  "hi": 0.407,
+  "n": 400
+ },
+ "qwen2.5|sw|GEN|v1_en": {
+  "acc": 0.24,
+  "lo": 0.195,
+  "hi": 0.285,
+  "n": 400
+ },
+ "qwen2.5|en|LETTER|v1_en": {
+  "acc": 0.485,
+  "lo": 0.44,
+  "hi": 0.53,
+  "n": 400
+ },
+ "qwen2.5|zh|LETTER|v1_en": {
+  "acc": 0.47,
+  "lo": 0.425,
+  "hi": 0.515,
+  "n": 400
+ },
+ "qwen2.5|sw|LETTER|v1_en": {
+  "acc": 0.26,
+  "lo": 0.215,
+  "hi": 0.305,
+  "n": 400
+ },
+ "qwen2.5|de|LETTER|v1_en": {
+  "acc": 0.4275,
+  "lo": 0.383,
+  "hi": 0.472,
+  "n": 400
+ },
+ "qwen2.5|ar|LETTER|v1_en": {
+  "acc": 0.33,
+  "lo": 0.285,
+  "hi": 0.375,
+  "n": 400
+ },
+ "qwen2.5|hi|LETTER|v1_en": {
+  "acc": 0.31,
+  "lo": 0.265,
+  "hi": 0.355,
+  "n": 400
+ },
+ "qwen2.5|id|LETTER|v1_en": {
+  "acc": 0.385,
+  "lo": 0.34,
+  "hi": 0.43,
+  "n": 400
+ },
+ "qwen2.5|yo|LETTER|v1_en": {
+  "acc": 0.2775,
+  "lo": 0.233,
+  "hi": 0.323,
+  "n": 400
+ },
+ "qwen2.5|en|LETTER|perm_ABCD": {
+  "acc": 0.485,
+  "lo": 0.44,
+  "hi": 0.53,
+  "n": 400
+ },
+ "qwen2.5|zh|LETTER|perm_ABCD": {
+  "acc": 0.47,
+  "lo": 0.425,
+  "hi": 0.515,
+  "n": 400
+ },
+ "qwen2.5|hi|LETTER|perm_ABCD": {
+  "acc": 0.31,
+  "lo": 0.265,
+  "hi": 0.355,
+  "n": 400
+ },
+ "qwen2.5|sw|LETTER|perm_ABCD": {
+  "acc": 0.26,
+  "lo": 0.215,
+  "hi": 0.305,
+  "n": 400
+ },
+ "qwen2.5|en|LETTER|perm_BCDA": {
+  "acc": 0.4875,
+  "lo": 0.443,
+  "hi": 0.532,
+  "n": 400
+ },
+ "qwen2.5|zh|LETTER|perm_BCDA": {
+  "acc": 0.45,
+  "lo": 0.405,
+  "hi": 0.495,
+  "n": 400
+ },
+ "qwen2.5|hi|LETTER|perm_BCDA": {
+  "acc": 0.295,
+  "lo": 0.25,
+  "hi": 0.34,
+  "n": 400
+ },
+ "qwen2.5|sw|LETTER|perm_BCDA": {
+  "acc": 0.31,
+  "lo": 0.265,
+  "hi": 0.355,
+  "n": 400
+ },
+ "qwen2.5|en|LETTER|perm_CDAB": {
+  "acc": 0.46,
+  "lo": 0.415,
+  "hi": 0.505,
+  "n": 400
+ },
+ "qwen2.5|zh|LETTER|perm_CDAB": {
+  "acc": 0.4325,
+  "lo": 0.388,
+  "hi": 0.477,
+  "n": 400
+ },
+ "qwen2.5|hi|LETTER|perm_CDAB": {
+  "acc": 0.27,
+  "lo": 0.225,
+  "hi": 0.315,
+  "n": 400
+ },
+ "qwen2.5|sw|LETTER|perm_CDAB": {
+  "acc": 0.2675,
+  "lo": 0.223,
+  "hi": 0.312,
+  "n": 400
+ },
+ "qwen2.5|en|LETTER|perm_DABC": {
+  "acc": 0.5125,
+  "lo": 0.467,
+  "hi": 0.557,
+  "n": 400
+ },
+ "qwen2.5|zh|LETTER|perm_DABC": {
+  "acc": 0.45,
+  "lo": 0.405,
+  "hi": 0.495,
+  "n": 400
+ },
+ "qwen2.5|hi|LETTER|perm_DABC": {
+  "acc": 0.2925,
+  "lo": 0.247,
+  "hi": 0.337,
+  "n": 400
+ },
+ "qwen2.5|sw|LETTER|perm_DABC": {
+  "acc": 0.27,
+  "lo": 0.225,
+  "hi": 0.315,
+  "n": 400
+ },
+ "qwen2.5|zh|LETTER|v2_native": {
+  "acc": 0.495,
+  "lo": 0.45,
+  "hi": 0.54,
+  "n": 400
+ },
+ "qwen2.5|hi|LETTER|v2_native": {
+  "acc": 0.32,
+  "lo": 0.275,
+  "hi": 0.365,
+  "n": 400
+ },
+ "qwen2.5|sw|LETTER|v2_native": {
+  "acc": 0.2775,
+  "lo": 0.233,
+  "hi": 0.323,
+  "n": 400
+ },
+ "qwen3|en|LETTER|v1_en": {
+  "acc": 0.5025,
+  "lo": 0.457,
+  "hi": 0.547,
+  "n": 400
+ },
+ "qwen3|de|LETTER|v1_en": {
+  "acc": 0.45,
+  "lo": 0.405,
+  "hi": 0.495,
+  "n": 400
+ },
+ "qwen3|zh|LETTER|v1_en": {
+  "acc": 0.49,
+  "lo": 0.445,
+  "hi": 0.535,
+  "n": 400
+ },
+ "qwen3|ar|LETTER|v1_en": {
+  "acc": 0.3625,
+  "lo": 0.318,
+  "hi": 0.407,
+  "n": 400
+ },
+ "qwen3|hi|LETTER|v1_en": {
+  "acc": 0.335,
+  "lo": 0.29,
+  "hi": 0.38,
+  "n": 400
+ },
+ "qwen3|id|LETTER|v1_en": {
+  "acc": 0.47,
+  "lo": 0.425,
+  "hi": 0.515,
+  "n": 400
+ },
+ "qwen3|sw|LETTER|v1_en": {
+  "acc": 0.26,
+  "lo": 0.215,
+  "hi": 0.305,
+  "n": 400
+ },
+ "qwen3|yo|LETTER|v1_en": {
+  "acc": 0.2775,
+  "lo": 0.233,
+  "hi": 0.323,
+  "n": 400
+ },
+ "qwen2.5|eng_Latn|LETTER|v1_en": {
+  "acc": 0.58,
+  "lo": 0.535,
+  "hi": 0.625,
+  "n": 300
+ },
+ "qwen2.5|hin_Deva|LETTER|v1_en": {
+  "acc": 0.323333,
+  "lo": 0.278,
+  "hi": 0.368,
+  "n": 300
+ },
+ "qwen2.5|swh_Latn|LETTER|v1_en": {
+  "acc": 0.296667,
+  "lo": 0.252,
+  "hi": 0.342,
+  "n": 300
+ },
+ "qwen2.5|zho_Hans|LETTER|v1_en": {
+  "acc": 0.55,
+  "lo": 0.505,
+  "hi": 0.595,
+  "n": 300
+ },
+ "smollm2|en|LETTER|v1_en": {
+  "acc": 0.2625,
+  "lo": 0.218,
+  "hi": 0.307,
+  "n": 400
+ },
+ "smollm2|de|LETTER|v1_en": {
+  "acc": 0.225,
+  "lo": 0.18,
+  "hi": 0.27,
+  "n": 400
+ },
+ "smollm2|zh|LETTER|v1_en": {
+  "acc": 0.235,
+  "lo": 0.19,
+  "hi": 0.28,
+  "n": 400
+ },
+ "smollm2|ar|LETTER|v1_en": {
+  "acc": 0.25,
+  "lo": 0.205,
+  "hi": 0.295,
+  "n": 400
+ },
+ "smollm2|hi|LETTER|v1_en": {
+  "acc": 0.2275,
+  "lo": 0.182,
+  "hi": 0.273,
+  "n": 400
+ },
+ "smollm2|id|LETTER|v1_en": {
+  "acc": 0.27,
+  "lo": 0.225,
+  "hi": 0.315,
+  "n": 400
+ },
+ "smollm2|sw|LETTER|v1_en": {
+  "acc": 0.215,
+  "lo": 0.17,
+  "hi": 0.26,
+  "n": 400
+ },
+ "smollm2|yo|LETTER|v1_en": {
+  "acc": 0.225,
+  "lo": 0.18,
+  "hi": 0.27,
+  "n": 400
+ },
+ "lite:qwen2.5|en|LETTER|v1_en": {
+  "acc": 0.44,
+  "lo": 0.375,
+  "hi": 0.505,
+  "n": 200
+ },
+ "lite:qwen2.5|de|LETTER|v1_en": {
+  "acc": 0.41,
+  "lo": 0.345,
+  "hi": 0.475,
+  "n": 200
+ },
+ "lite:qwen2.5|zh|LETTER|v1_en": {
+  "acc": 0.465,
+  "lo": 0.4,
+  "hi": 0.53,
+  "n": 200
+ },
+ "lite:qwen2.5|ar|LETTER|v1_en": {
+  "acc": 0.32,
+  "lo": 0.255,
+  "hi": 0.385,
+  "n": 200
+ },
+ "lite:qwen2.5|hi|LETTER|v1_en": {
+  "acc": 0.28,
+  "lo": 0.215,
+  "hi": 0.345,
+  "n": 200
+ },
+ "lite:qwen2.5|id|LETTER|v1_en": {
+  "acc": 0.355,
+  "lo": 0.29,
+  "hi": 0.42,
+  "n": 200
+ },
+ "lite:qwen2.5|sw|LETTER|v1_en": {
+  "acc": 0.265,
+  "lo": 0.2,
+  "hi": 0.33,
+  "n": 200
+ },
+ "lite:qwen2.5|yo|LETTER|v1_en": {
+  "acc": 0.24,
+  "lo": 0.175,
+  "hi": 0.305,
+  "n": 200
+ }
+}

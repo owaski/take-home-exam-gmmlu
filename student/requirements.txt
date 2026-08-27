@@ -1,0 +1,15 @@
+# Pinned environment for the take-home exam. Python 3.10 - 3.12, macOS arm64 / x86_64 and Linux.
+# Install with:  python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
+# (or simply `make install`). Lower bounds are the oldest versions the harness is tested against;
+# upper bounds keep you off the next major release.
+torch>=2.2.2,<3                # Intel (x86_64) Macs: the last torch wheel for macOS x86_64 is 2.2.2
+transformers>=4.56,<6          # needs torch>=2.2; model.py passes `dtype=` and falls back to `torch_dtype=`
+datasets>=2.20,<6
+numpy>=1.26,<3
+pandas>=2.0,<4
+matplotlib>=3.8,<4
+pytest>=8,<10
+huggingface_hub>=0.24,<2
+psutil>=5.9,<8
+safetensors>=0.4
+accelerate>=0.30               # only used by transformers for device placement; harmless on CPU

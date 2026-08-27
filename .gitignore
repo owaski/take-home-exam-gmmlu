@@ -1,0 +1,20 @@
+# build artefacts and local state
+student.zip
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.DS_Store
+# per-student outputs (never commit from a working copy)
+student/predictions/*
+!student/predictions/.gitkeep
+student/figures/*
+!student/figures/.gitkeep
+student/*.partial
+student/smoke_ok.json
+student/probe.jsonl
+student/run_log.txt
+student/results.csv
+student/*.csv
+student/grade_report.md
+instructor/_refrun/
